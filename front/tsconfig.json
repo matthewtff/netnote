@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "jsx": "react",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "build"
+  },
+  "exclude": [
+    "afonts/",
+    "build/",
+    "css/",
+    "fonts/",
+    "js/",
+    "html/"
+  ]
+}

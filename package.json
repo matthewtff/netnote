@@ -1,0 +1,38 @@
+{
+  "name": "netnote",
+  "version": "0.0.1",
+  "description": "Platform for blog posting",
+  "keywords": [
+    "blog",
+    "post"
+  ],
+  "author": {
+    "name": "MatCatLab",
+    "email": "postmaster@matcatlab.ru",
+    "url": "https://www.matcatlab.ru"
+  },
+  "homepage": "http://netnote.matcatlab.ru",
+  "engines": {
+    "node": ">= 0.10.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "es6-promise": "^3.0.2",
+    "express": "^3.4.8",
+    "helmet": "^2.1.1",
+    "pg": "^4.4.3",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "typescript": "^1.8.10",
+    "webpack": "^1.12.12"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "build/server.js",
+  "scripts": {
+    "prestart": "node node_modules/typescript/bin/tsc -p front && node node_modules/webpack/bin/webpack.js --config front/netnote.config.js && node node_modules/typescript/bin/tsc -p back",
+    "start": "supervisor build/server.js"
+  }
+}

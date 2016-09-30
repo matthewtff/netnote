@@ -1,0 +1,36 @@
+.report-block
+{
+	padding:0px 5px;	
+	font-size: 14px;
+}
+
+.report_checkbox + label
+{
+	font-weight: normal;
+	color:#333;
+	cursor: pointer;
+
+}
+
+.report_checkbox
+{
+	opacity:0;
+}
+
+.report_checkbox:checked + label
+{
+	color:green;
+}
+
+.report_checkbox:checked + label:before
+{
+	content:"\2611";
+	margin-left: -18px;
+	margin-right: 20px;
+}
+.report_checkbox:not(checked) + label:before
+{
+	content:"\2610";
+	margin-left: -18px;
+	margin-right: 20px;
+}

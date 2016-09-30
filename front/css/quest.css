@@ -1,0 +1,34 @@
+.quest_header
+{
+	cursor: pointer;	
+}
+
+.quest
+{
+	max-height: 40px;
+	transition: max-height 0.4s ease-out; 
+	overflow: hidden;
+	margin-top: -22px;
+
+
+}
+
+.quest:hover
+{
+	max-height: 1000px;
+	transition: max-height 2s ease-out; 
+}
+
+.quest_open
+{
+	max-height: 1000px;
+}
+.quest:first-child, ..quest_open:first-child
+{
+	margin-top: 0px;
+}
+
+.left_block
+{
+	margin-bottom: 50px;
+}

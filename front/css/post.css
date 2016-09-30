@@ -1,0 +1,70 @@
+.main_post_pic
+{
+	overflow: hidden;
+	max-height: 300px;
+	height:auto;
+	
+}
+.main_post_pic>img
+{
+	width:100%;
+}
+.text-block
+{
+	overflow:auto; 
+	height:87vh;
+	background-color: rgba(255,255,255,1);
+	border-radius: 4px;
+	padding:5px;
+
+}
+.text-block>h2
+{
+	color:#333;
+}
+
+a.text-a
+{
+	color:#0A575D;
+}
+a.text-a:hover
+{
+	color: #31919D;
+}
+/* хром, сафари */
+.text-block::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+.text-block { -ms-overflow-style: none; }
+
+/* фф (свойство больше не работает, других способов тоже нет)*/
+.text-block { overflow: -moz-scrollbars-none; }
+
+.post-right-tab
+{
+	background-color: #fff;
+	border-radius: 0px 0px 4px 4px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	width:100%;
+	margin-top:-5px;
+	padding:10px 5px 5px 5px;
+
+
+}
+.comment_block
+{
+	border-bottom: 1px solid #ccc;
+}
+.comment_block:last-child
+{
+	border:none;
+}
+.tags_block
+{
+	font-style: italic;
+	text-align: justify;
+	display: inline-block;
+	width:100%;
+}

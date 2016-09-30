@@ -1,0 +1,214 @@
+.info_block, .info_block_with_pic
+{
+	border: 1px solid #ccc;
+	cursor:pointer;
+	box-shadow: 0px 0px 3px 1px #bbb;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+
+.info_block:hover, .info_block_with_pic:hover
+{
+	/*box-shadow: 0px 0px 3px 1px #86CAF7;*/
+	box-shadow: 0px 0px 6px 3px #bbb;
+}
+
+.info_block_pic
+{
+	 
+	max-height:150px;
+	position:relative;
+	overflow: hidden;
+}
+.info_block_pic>img
+{
+	max-width:100%;
+	height:auto;
+}
+
+.info_block_with_pic>.info_block_pic>.info_block_title
+{
+	position:absolute;
+	width:100%;
+	height:auto;
+	bottom: 0;
+
+}
+.top_post_title
+{
+	/*background-color: rgb(251,246,206);*/
+	background-color: rgb(252, 247, 192);
+	/*box-shadow: inset 0 0 55px 1px rgb(251,246,206);*/
+}
+.info_block_title
+{
+	
+	padding: 0px 5px;
+	
+}
+.post_title
+{
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: inset 0 0 55px 1px #fff;
+}
+.info_block_with_pic>.info_block_prev
+{
+	/*height:100px;*/
+	padding: 0px 5px;
+}
+.info_block_prev, .info_block_email, .info_block_text
+{
+	/*display:block;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;*/
+	/*height:180px;*/
+	max-height: 300px;
+	overflow: auto;
+	padding: 5px 5px 0px 5px;
+
+}
+
+.info_block_read
+{
+	text-align: center;
+	padding-bottom: 5px;
+	/*height:15px;*/
+
+}
+
+.info_block_read_icon
+{
+	padding-top: 5px;
+}
+
+.top_post
+{
+	/*background-color: rgb(251,246,206);*/
+	background-color: rgb(252, 247, 192);
+}
+
+.btn-new-post
+{
+	background-color: rgba(255,255,255,0.2); /*rgb(161, 196, 54);*/
+	width:100%;
+	text-align: center;
+	color: #FFF;
+	font-size: 24px;
+	padding: 10px 0px;
+	border: 2px solid #FFF; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+.btn-new-post:hover, .btn-new-post:active
+{
+	color: #58DDED;
+	border: 2px solid #58DDED;
+	/*background-color: rgb(171, 206, 64);*/
+
+}
+
+.new_post
+{
+	cursor:text;
+	padding: 5px;
+	color: #333;
+}
+.new_post:hover
+{
+	box-shadow: 0px 0px 3px 1px #bbb;
+}
+
+.upload_pic
+{
+	width: 100%;
+	height: 50px;
+	opacity:0;
+	position:absolute;
+	bottom:40px;
+	cursor: pointer;
+	
+}
+
+.upload_pic_button
+{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 4px;
+	border:1px solid #ccc;
+	font-size: 40px;
+	color:#333;
+
+
+}
+.upload_pic_container
+{
+	width: 100%;
+	height: 50px;
+	
+}
+
+.btn-settings
+{
+
+	background: linear-gradient(to top, #FFF, #DDD);
+	color: #333;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	padding:3px;
+	border-radius: 4px;
+	width:auto;
+	text-align: center;
+}
+
+
+.btn-settings:focus, .btn-settings:active, .btn-settings:visited, .btn-settings:link
+{
+	outline:none;
+}
+
+
+.info_block_settings
+{
+	max-height: 40px;
+	transition: max-height 2s ease-out; 
+	overflow: hidden;
+
+}
+.info_block_settings_open
+{
+	max-height: 40px;
+	transition: max-height 2s ease-out; 
+	
+
+}
+
+.info_block_settings:hover
+{
+	max-height: 1000px;
+}
+
+.my_post_settings
+{
+	position: absolute;
+	top:3px;
+	right:20px;
+	z-index: 20;
+	font-size: 20px;
+
+}
+
+.tag_cell
+{
+	display: inline-block;
+	color:#333;
+	background-color: rgb(252, 247, 192);
+	border-radius: 4px;
+	padding: 2px;
+
+}

@@ -1,0 +1,80 @@
+.left_menu_bar
+{
+	position:fixed;
+	top:0px;
+	width:200px;
+	left:-200px;
+	background-color: #fff;
+	/*color: rgb(24,41,69);*/
+	color:#555;
+	font-size: 18px;
+	transition: left .5s ease-out;
+	z-index: 999;
+}
+
+.left_menu_bar:hover
+{
+	left:0px;
+	
+}
+
+.left_menu_wrapper
+{
+	min-height: 100vh;
+	max-height: 100vh;
+	overflow-y: auto;
+
+}
+
+.left_menu_reg
+{
+	font-size: 14px;
+	max-width: 140px;
+}
+
+.left_menu_bar>.left_menu_wrapper>.list-group
+{
+	font-size: 14px;
+	width: 100%;
+	color:#555;
+}
+
+.Left_menu_bar_button
+{
+	position:absolute;
+	top:0;
+	padding:10px;
+	right:-50px;
+	cursor: pointer;
+	background-color: #fff;
+	font-size: 30px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+    
+}
+
+.left_menu_personal_info
+{
+	text-align: center;
+	padding: 20px;
+	border-right: 1px solid #ccc;
+}
+
+.left_menu_personal_info>a
+{
+	/*color:rgb(161, 196, 54);
+	text-decoration: none;*/
+	font-size: 12px;
+}
+/*.left_menu_personal_info>a:hover
+{
+	color:rgb(24,41,69);
+}
+*/
+
+.list-group> a:first-child:not(:last-child) {
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}

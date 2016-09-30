@@ -1,0 +1,36 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "pg/pg.d.ts": {
+      "commit": "46719185c564694c5583c4b7ad94dbb786ecad46"
+    },
+    "node/node.d.ts": {
+      "commit": "11444987349955e88646958ef277dd419ff646fc"
+    },
+    "express/express.d.ts": {
+      "commit": "77b1b1709315b03b9b1b67c589d599bebeeef2ee"
+    },
+    "es6-promise/es6-promise.d.ts": {
+      "commit": "46719185c564694c5583c4b7ad94dbb786ecad46"
+    },
+    "mime/mime.d.ts": {
+      "commit": "77b1b1709315b03b9b1b67c589d599bebeeef2ee"
+    },
+    "serve-static/serve-static.d.ts": {
+      "commit": "77b1b1709315b03b9b1b67c589d599bebeeef2ee"
+    },
+    "async/async.d.ts": {
+      "commit": "4ba57e605bd71bf7248de65aac0b4f50e3eb1c9e"
+    },
+    "helmet/helmet.d.ts": {
+      "commit": "77b1b1709315b03b9b1b67c589d599bebeeef2ee"
+    },
+    "express-serve-static-core/express-serve-static-core.d.ts": {
+      "commit": "77b1b1709315b03b9b1b67c589d599bebeeef2ee"
+    }
+  }
+}

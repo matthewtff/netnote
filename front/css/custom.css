@@ -1,0 +1,208 @@
+/*
+h1
+color: #121212;
+
+body
+color: #929487;
+background-color: #F4F5ED;
+
+btn
+background-color: #E8B21E;
+border-color: #DBA718;
+
+btn:hover, btn-active
+background-color: #FAC83E;
+
+*/
+
+
+html body
+{
+	font-family: Roboto, Open Sans, Helvetica Neue, sans-serif;
+	color: #42433F;
+	background-color: #F4F5ED;
+	background-image: url("img/dandelion_back_05.png");
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+a
+{
+	color: #9A2720;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover
+{
+	color: #E8B21E;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	color: #121212;
+}
+
+.red_color
+{
+	color: #9A2720;
+}
+.glyphicon-ok
+{
+	color: green;
+	padding-top: 5px;
+}
+.glyphicon-exclamation-sign
+{
+	color: #9A2720;
+	padding-top: 5px;
+}
+
+.row:first-child
+{
+	margin: 0px 0px;
+}
+
+.row
+{
+	
+	margin: 15px 0px;
+}
+.plate
+{
+	background-color: rgba(244, 245, 237, 0.7);
+}
+
+
+
+.btn:active,
+.btn.active 
+{
+	background-color: #FAC83E;	
+}
+.btn-dandelion
+{
+	background-color: #E8B21E;
+	border-color: #DBA718;
+	color: #fff;
+	width:100%;
+}
+
+
+
+.btn-dandelion:hover, .btn-file:hover
+{
+	background-color: #FAC83E;
+	color: #fff;
+
+}
+p.r_align
+{
+	text-align: right;
+}
+p.j_align
+{
+	text-align-last: justify;
+}
+.btn-file
+{
+	padding:10px 0px;	
+	width: 100%;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #E8B21E;
+	border-color: #DBA718;
+	border: 1px solid transparent;
+    border-radius: 6px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.btn-file+input:hover
+{
+	cursor:pointer;
+}
+
+
+textarea
+{
+	resize: vertical;
+	width:100%; 
+	min-height: 200px;"
+	padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.icon
+{
+	width: 30px;
+	height: 30px;
+	display:inline-block;
+	border:0;
+	margin-bottom: 3px;
+}
+
+.tw 
+{
+	background-image: url("img/tw.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.fb 
+{
+	background-image: url("img/fb.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.vk 
+{
+	background-image: url("img/vk.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.lj 
+{
+	background-image: url("img/lj.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.inst 
+{
+	background-image: url("img/inst.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+.layout
+{
+	position:fixed;
+	top:0;
+	bottom: 0;
+	left:0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index:998;
+	cursor: default;
+}
+.popup
+{
+	position: fixed;
+	top: 35%;
+	left: 30%;
+	width: auto;
+	z-index:999;
+	font-size: 18px;
+}
+
