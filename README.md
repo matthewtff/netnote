@@ -1,0 +1,2 @@
+# netnote
+Blog posting platform
